@@ -10,4 +10,4 @@ The sequence diagram illustrates how different actors (Admin, Backend, Flow Engi
 
 
 
-![Docusaurus Logo](/img/sequence-diagram.png)
+<img src="/img/sequence-diagram.png" alt="Data Flow Diagram" width="800" height="300" />
