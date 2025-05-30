@@ -28,7 +28,6 @@ module.exports = {
                 'admin/dashboard/help-&-support',
                 'admin/dashboard/scheduler',
                 'admin/dashboard/invoices-&-payments',
-                'admin/dashboard/license-keys',
           ],
         },],
     },
