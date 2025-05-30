@@ -1,48 +1,43 @@
 ---
-title: Data Policies & Monitoring
----
-
-# Data Policies & Monitoring
-
-### 🖥️ System Health
-
-- **Service Status Dashboard**  
-  Admin sees green/red indicators for ingestion, orchestration, API, and UI services.
-
-- **Resource Metrics**  
-  Real-time charts showing CPU, memory, and queue backlogs.
-
-### 📊 Flow & Agent Metrics
-
-- **Execution Stats**  
-  Total runs, success vs. failure counts, and average latency per flow/agent.
-
-- **Heatmap**  
-  Peak usage times by hour and day.
-
-### 🚨 Alerts & Notifications
-
-- **Define Alert Rules**  
-  Conditions like "Failure rate > 5% for 10 minutes".
-
-- **Notification Channels**  
-  Email, SMS, or Slack per alert.
-
-- **Thresholds**  
-  Warning and critical levels configuration.
-
-### 📝 Incident Management
-
-- **Ticket Integration**  
-  Jira/ServiceNow project and issue type for auto-creating tickets.
-
-- **Escalation Policies**  
-  Define escalation contacts and SLAs for incident resolution.
-
----
 sidebar_position: 16
 ---
-## Monitoring
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Monitoring
+
+<Tabs>
+  <TabItem value="systemHealth" label="🖥️ System Health">
+    <ul>
+      <li><strong>Service Status Dashboard:</strong> Admin sees green/red indicators for ingestion, orchestration, API, and UI services.</li>
+      <li><strong>Resource Metrics:</strong> Real-time charts showing CPU, memory, and queue backlogs.</li>
+    </ul>
+  </TabItem>
+
+  <TabItem value="flowAgent" label="📊 Flow & Agent Metrics">
+    <ul>
+      <li><strong>Execution Stats:</strong> Total runs, success vs. failure counts, and average latency per flow/agent.</li>
+      <li><strong>Heatmap:</strong> Peak usage times by hour and day.</li>
+    </ul>
+  </TabItem>
+
+  <TabItem value="alertNotification" label="🚨 Alerts & Notifications">
+    <ul>
+      <li><strong>Define Alert Rules:</strong> Conditions like "Failure rate > 5% for 10 minutes".</li>
+      <li><strong>Notification Channels:</strong> Email, SMS, or Slack per alert.</li>
+      <li><strong>Thresholds:</strong> Warning and critical levels configuration.</li>
+    </ul>
+  </TabItem>
+
+  <TabItem value="incidentManagement" label="📝 Incident Management">
+    <ul>
+      <li><strong>Ticket Integration:</strong> Jira/ServiceNow project and issue type for auto-creating tickets.</li>
+      <li><strong>Escalation Policies:</strong> Define escalation contacts and SLAs for incident resolution.</li>
+    </ul>
+  </TabItem>
+</Tabs>
+
+## Key Features
 
 - **System Health:** Monitor overall system health with real-time dashboards showing server status, response times, and resource utilization.
 

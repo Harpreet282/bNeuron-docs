@@ -1,4 +1,4 @@
-# Introduction
+# Admin Introduction
 
 The Admin Panel serves as the central control system of the AI automation platform—empowering administrators, builders, and operations teams to create, manage, deploy, and monitor intelligent AI agents across multiple departments and channels.
 

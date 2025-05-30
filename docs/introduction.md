@@ -3,7 +3,7 @@
 ## 1. Introduction
 The platform is an end-to-end enterprise AI automation system designed to help organizations identify, build, and deploy AI-powered solutions with minimal technical effort. Inspired by ZBrain, it blends strategic discovery tools, low-code workflow design, natural language understanding, and real-time deployment—all unified in one powerful admin environment.
 
-:::note Key Feature
+:::info Key Feature
 The system empowers users (internal teams, consultants, or enterprise clients) to transform business processes into intelligent agents capable of answering questions, automating decisions, and generating insights.
 :::
 
