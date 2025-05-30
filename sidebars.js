@@ -37,12 +37,12 @@ module.exports = {
       type: 'category',
       label: 'Diagrams',
       items: [
-        'diagrams/information-architecture',
-        'diagrams/wireflow-diagram',
+        
+        
         'diagrams/entity-relationship-diagram',
         'diagrams/data-flow-diagram',
         'diagrams/component-diagram',
-        'diagrams/deployment-architecture-diagram',
+       
         'diagrams/sequence-diagram',
       ],
     },
