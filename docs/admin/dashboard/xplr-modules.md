@@ -21,15 +21,13 @@ sidebar_position: 14
 
 - **Integration APIs:** Connect modules with external systems and third-party services through standardized APIs.
 
----
-title: XPLR 
----
 
-# XPLR Modules Administration
 
-## 📋 Assessment Templates
+### XPLR Modules Administration:
 
-### Template Listing
+### 📋 Assessment Templates
+
+#### Template Listing
 
 Admin will view a table of existing assessment templates showing:
 
@@ -39,7 +37,7 @@ Admin will view a table of existing assessment templates showing:
 - Last Updated
 - Actions: Edit / Archive
 
-### Add New Template
+#### Add New Template
 
 - **Template Name**: Enter a clear name (e.g., *Finance Readiness Q1*)
 - **Department**: Select the relevant department (HR, Finance, IT, Customer Support, etc.)
@@ -54,51 +52,51 @@ Admin will view a table of existing assessment templates showing:
 
 - **Save Template**: Click "Save" to create the template
 
-### Edit Template
+#### Edit Template
 
 - Click "Edit" to modify template fields or questions
 - Click "Update" to save changes
 
-### Archive Template
+#### Archive Template
 
 - Disable outdated templates so they no longer appear in new assessments
 
 ---
 
-## 🌲 Taxonomy Explorer
+### 🌲 Taxonomy Explorer
 
-### Process Map View
+#### Process Map View
 
 - Visual tree of Departments → Functions → Sub-Processes
 
-### Add Department
+#### Add Department
 
 - **Department Name**: Enter new department (e.g., *Legal*)
 - **Description**: Add short description of scope
 
-### Add Function
+#### Add Function
 
 - **Function Name**: Enter function name (e.g., *Contract Review*)
 - **Parent Department**: Select associated department
 
-### Add Sub-Process
+#### Add Sub-Process
 
 - **Sub-Process Name**: Enter sub-process name (e.g., *Upload NDA*)
 - **Parent Function**: Select parent function
 
-### Assign Use-Case Categories
+#### Assign Use-Case Categories
 
 - Tag each sub-process with default use-case categories (e.g., *Document Automation*, *Approval Workflow*)
 
-### Reorder / Drag-Drop
+#### Reorder / Drag-Drop
 
 - Rearrange nodes by dragging in the visual map to reflect organizational changes
 
 ---
 
-## 📚 Use-Case Repository
+### 📚 Use-Case Repository
 
-### Repository Listing
+#### Repository Listing
 
 Table with columns:
 
@@ -108,7 +106,7 @@ Table with columns:
 - Feasibility Score
 - Actions: Edit / Delete
 
-### Add Use-Case
+#### Add Use-Case
 
 - **Title**: Enter name (e.g., *Invoice OCR Automation*)
 - **Industry**: Select one or more industries (Finance, Manufacturing, Retail, etc.)
@@ -118,41 +116,41 @@ Table with columns:
 - **Tags**: Tag with relevant keywords (OCR, RPA, LLM)
 - **Save Use-Case**: Click "Save" to add to the repository
 
-### Edit Use-Case
+#### Edit Use-Case
 
 - Update fields as needed and click "Update"
 
-### Delete Use-Case
+#### Delete Use-Case
 
 - Click trash icon and confirm to remove
 
 ---
 
-## 🛠️ Portfolio & Roadmap Settings
+### 🛠️ Portfolio & Roadmap Settings
 
-### ICE Scoring Configuration
+#### ICE Scoring Configuration
 
 - **Impact Weight**: Enter percentage (e.g., 40%)
 - **Confidence Weight**: Enter percentage (e.g., 30%)
 - **Ease Weight**: Enter percentage (e.g., 30%)
 
-### Ranking Thresholds
+#### Ranking Thresholds
 
 - **High Priority**: ICE ≥ 75
 - **Medium Priority**: ICE 50–74
 - **Low Priority**: ICE < 50
 
-### Auto-Rank Rules
+#### Auto-Rank Rules
 
 - Toggle auto-ranking of new use cases on creation
 
-### Generate Roadmap
+#### Generate Roadmap
 
 - **Select Use Cases**: Check box next to each prioritized use case
 - **Timeline Settings**: Choose Quarterly / Monthly / Custom date ranges
 - **Resource Tags**: Tag required teams (e.g., Data, DevOps, BI)
 - **Create Roadmap**: Click "Generate" to produce a Gantt-style plan
 
-### Export Roadmap
+#### Export Roadmap
 
 - Download roadmap as PDF or export to MS Project

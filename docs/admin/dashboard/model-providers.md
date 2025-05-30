@@ -21,7 +21,7 @@ sidebar_position: 12
 
 - **Usage Analytics:** Detailed reporting on model usage patterns, costs, and performance metrics for informed decision-making.
 
-## 📋 Providers Listing
+### 📋 Providers Listing
 
 - **Columns**:
   - **Provider Name**
@@ -33,7 +33,7 @@ sidebar_position: 12
 
 ---
 
-## ➕ Add Model Provider
+### ➕ Add Model Provider
 
 - **Provider Type**: OpenAI, Anthropic, Local LLM, Azure AI, etc.
 - **API Key / Credentials**: Secure entry field
@@ -44,7 +44,7 @@ sidebar_position: 12
 
 ---
 
-## 📊 Usage Dashboard
+### 📊 Usage Dashboard
 
 - **Graphs**:
   - API calls per day
@@ -57,11 +57,11 @@ sidebar_position: 12
 
 ---
 
-# Flows (Low-Code Builder)
+## Flows (Low-Code Builder)
 
-## 📄 Flow Listing
+### 📄 Flow Listing
 
-### Columns
+#### Columns
 
 - **Flow Name**
 - **Owner**
@@ -70,13 +70,13 @@ sidebar_position: 12
 - **Success Rate**
 - **Actions**: Edit / Run / Delete
 
-### 🔍 Search & Filter
+#### 🔍 Search & Filter
 
 - Filter by **Tag**, **Owner**, and **Status**
 
 ---
 
-## ➕ Create Flow
+### ➕ Create Flow
 
 - **Select Template**: Choose from industry templates or start blank
 - **Metadata**:
@@ -87,7 +87,7 @@ sidebar_position: 12
 
 ---
 
-## 🧩 Canvas
+### 🧩 Canvas
 
 - **Node Palette**:
   - Ingest
@@ -99,7 +99,7 @@ sidebar_position: 12
 
 - **Drag & Drop**: Place nodes and connect arrows to define flow logic
 
-### ⚙️ Node Configuration
+#### ⚙️ Node Configuration
 
 - Define for each node:
   - Prompt text or API details
@@ -108,7 +108,7 @@ sidebar_position: 12
 
 ---
 
-## 🗂️ Version Control
+### 🗂️ Version Control
 
 - **Save Version**: Enter a version note
 - **Compare Versions**: Side-by-side diff view
@@ -116,7 +116,7 @@ sidebar_position: 12
 
 ---
 
-## 🚀 Publish & Deploy
+### 🚀 Publish & Deploy
 
 - **Environment**: Toggle between Dev, QA, and Prod
 - **Schedule**: Define with a cron expression or set as one-time run

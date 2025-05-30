@@ -21,7 +21,7 @@ sidebar_position: 9
 
 - **Bulk Permission Updates:** Apply permission changes to multiple roles simultaneously for efficient management.
 
-## 📋 Roles Listing
+### 📋 Roles Listing
 
 - **Columns**:
   - **Role Name**
@@ -31,21 +31,21 @@ sidebar_position: 9
 
 ---
 
-## ➕ Create Role
+### ➕ Create Role
 
-### Role Details
+#### Role Details
 
 - **Role Name**: Admin defines a clear name (e.g., *Flow Builder*)
 - **Description**: A brief summary of responsibilities
 
-### Permissions & Settings
+#### Permissions & Settings
 
 - **Module Permissions**: A grid with toggles for each module (Read / Write / Execute)
 - **Default Dashboards**: Checkbox to auto-assign default dashboard widgets
 
 ---
 
-## ✏️ Edit Role
+### ✏️ Edit Role
 
 - Modify any of the above properties
 - Save version history for tracking changes

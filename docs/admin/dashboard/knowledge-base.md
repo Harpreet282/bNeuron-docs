@@ -21,9 +21,9 @@ sidebar_position: 11
 
 - **Integration Options:** Connect with external documentation systems and content management platforms.
 
-## 📄 Connectors Listing
+### 📄 Connectors Listing
 
-### 📋 Columns
+#### 📋 Columns
 
 - **Connector Name**
 - **Type**: DB / File / API
@@ -33,7 +33,7 @@ sidebar_position: 11
 
 ---
 
-## ➕ Add Connector
+### ➕ Add Connector
 
 - **Connector Type**: Select from MySQL, MongoDB, S3, REST API, Manual Upload
 - **Connection Details**:
@@ -53,7 +53,7 @@ sidebar_position: 11
 
 ---
 
-## 📡 Ingestion Monitor
+### 📡 Ingestion Monitor
 
 - Live job feed displaying:
   - **Job Name**
@@ -65,7 +65,7 @@ sidebar_position: 11
 
 ---
 
-## 📚 Document Explorer
+### 📚 Document Explorer
 
 - Browse ingested items with the following metadata:
   - **Title**
@@ -73,7 +73,7 @@ sidebar_position: 11
   - **Date Ingested**
   - **Tags**
 
-### ⚙️ Actions
+#### ⚙️ Actions
 
 - View content preview
 - Tag / Untag

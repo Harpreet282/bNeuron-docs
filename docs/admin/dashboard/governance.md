@@ -23,7 +23,7 @@ sidebar_position: 15
 
 ---
 
-## 🛡️ Guardrails & Filters
+### 🛡️ Guardrails & Filters
 
 - **Prohibited Content List**  
   Admin will upload keywords/phrases to block in AI outputs.
@@ -36,7 +36,7 @@ sidebar_position: 15
 
 ---
 
-## 📜 Audit Logs
+### 📜 Audit Logs
 
 - **Log Viewer**  
   Admin can search logs by User, Module, Action, or Date.

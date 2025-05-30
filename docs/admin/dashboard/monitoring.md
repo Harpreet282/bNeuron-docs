@@ -2,11 +2,9 @@
 title: Data Policies & Monitoring
 ---
 
-# Data Policies
+# Data Policies & Monitoring
 
-# Monitoring & AppOps
-
-## 🖥️ System Health
+### 🖥️ System Health
 
 - **Service Status Dashboard**  
   Admin sees green/red indicators for ingestion, orchestration, API, and UI services.
@@ -14,7 +12,7 @@ title: Data Policies & Monitoring
 - **Resource Metrics**  
   Real-time charts showing CPU, memory, and queue backlogs.
 
-## 📊 Flow & Agent Metrics
+### 📊 Flow & Agent Metrics
 
 - **Execution Stats**  
   Total runs, success vs. failure counts, and average latency per flow/agent.
@@ -22,7 +20,7 @@ title: Data Policies & Monitoring
 - **Heatmap**  
   Peak usage times by hour and day.
 
-## 🚨 Alerts & Notifications
+### 🚨 Alerts & Notifications
 
 - **Define Alert Rules**  
   Conditions like "Failure rate > 5% for 10 minutes".
@@ -33,7 +31,7 @@ title: Data Policies & Monitoring
 - **Thresholds**  
   Warning and critical levels configuration.
 
-## 📝 Incident Management
+### 📝 Incident Management
 
 - **Ticket Integration**  
   Jira/ServiceNow project and issue type for auto-creating tickets.
@@ -44,7 +42,7 @@ title: Data Policies & Monitoring
 ---
 sidebar_position: 16
 ---
-# Monitoring
+## Monitoring
 
 - **System Health:** Monitor overall system health with real-time dashboards showing server status, response times, and resource utilization.
 

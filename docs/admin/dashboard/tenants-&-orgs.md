@@ -21,7 +21,7 @@ sidebar_position: 10
 
 - **Cross-tenant Reporting:** Generate reports and analytics across multiple tenants for enterprise oversight.
 
-## 🏢 Tenant Listing
+### 🏢 Tenant Listing
 
 ### 📋 Columns
 
@@ -32,7 +32,7 @@ sidebar_position: 10
 
 ---
 
-## ➕ Create Tenant
+### ➕ Create Tenant
 
 - **Tenant Name**: Name of the business unit or client
 - **Domain Alias**: URL subdomain (e.g., `client1.bneuron.ai`)
@@ -41,18 +41,18 @@ sidebar_position: 10
 
 ---
 
-## ⚙️ Organization Policies
+### ⚙️ Organization Policies
 
-### 🔐 Password Policy
+#### 🔐 Password Policy
 
 - Minimum length
 - Complexity requirements
 - Rotation period
 
-### ⏱️ Session Timeout
+#### ⏱️ Session Timeout
 
 - Inactivity timeout in minutes
 
-### 🗂️ Data Retention
+#### 🗂️ Data Retention
 
 - Select retention period for logs and data
