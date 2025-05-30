@@ -1,70 +1,83 @@
----
-id: introduction
-title: Introduction
----
+# Platform Overview
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+## 1. Introduction
+The platform is an end-to-end enterprise AI automation system designed to help organizations identify, build, and deploy AI-powered solutions with minimal technical effort. Inspired by ZBrain, it blends strategic discovery tools, low-code workflow design, natural language understanding, and real-time deployment—all unified in one powerful admin environment.
 
+The system empowers users (internal teams, consultants, or enterprise clients) to transform business processes into intelligent agents capable of answering questions, automating decisions, and generating insights.
 
+## 2. Core Objectives
+- Accelerate AI adoption within organizations with a no/low-code platform.
+- Automate business processes using modular flow builders and agents.
+- Integrate across departments (HR, IT, Finance, Support, Sales) using prebuilt templates and connectors.
+- Deploy across channels including Slack, MS Teams, Web, and REST APIs.
 
-## Overview of bNeuron
-- e‑Aurum is a blockchain‑native platform that redefines gold investing for the digital era. By tokenizing physical gold reserves on `Binance Smart Chain (BEP‑20)`, e‑Aurum transforms a historically illiquid asset into a fully programmable, transparent, and globally accessible digital commodity.
+## 3. Key Modules & Features
 
-- Each eAU token is backed by exactly one gram of audited, allocated gold stored in insured vaults, ensuring that investors hold verifiable ownership of tangible value without the traditional frictions of storage, transportation, or counterparty risk.   
-- Launched to address the inefficiencies of conventional gold markets such as high minimum investment thresholds, opaque pricing, and logistical complexities e‑Aurum delivers institutional‑grade infrastructure to retail and professional investors alike.
-- Through a seamless web and mobile interface, users can instantly buy, sell, and redeem gold tokens 24/7, accessing real‑time pricing feeds and transaction history with full on‑chain transparency. 
+### 🧠 Flow Builder (Low-Code Interface)
+- Drag-and-drop interface to create AI workflows visually.
+- Nodes include: Text Input, API Call, Data Enrichment, Decision Branching, LLM Generation.
+- Allows chaining of logic for data retrieval, transformation, reasoning, and structured output.
 
-## Vision & Mission
+### 👥 Agents & Deployment Engine
+- Create agents by linking flows with business context.
+- Define agent personality, greeting message, response tone, etc.
+- Deploy to Slack, Teams, Web widget, or external tools via REST API.
+- Monitor live usage and performance from the panel.
 
-<Tabs>
-  <TabItem value="vision" label="Vision">
-    To establish e‑Aurum as the world's premier digital gold platform, setting a new 
-    global standard for asset stability, transparency, and financial inclusion.
-    
-  </TabItem>
+### 🧭 Discover (AI Opportunity Mapping)
+- Interactive process intake forms to map real-world workflows.
+- AI-based scoring of maturity (data readiness, tooling, skills).
+- Use-case repository to prioritize ROI-centric implementations.
 
-  <TabItem value="mission" label="Mission">
-    
-    To democratize gold ownership by delivering a secure, liquid, and transparent  digital alternative that bridges traditional asset value with the innovation of   blockchain technology. We strive to empower investors worldwide with frictionless   access to gold, underpinned by rigorous auditability and best‑in‑class security.
-  
-  </TabItem>
-</Tabs>
+### 📊 Dashboards & Analytics
+- Track usage stats per agent (queries, response quality, average latency).
+- Drill down to user-specific interactions and satisfaction scores.
+- Filter by department, user role, or deployed channel.
 
+### 🔐 User & Role Management
+- Role-based access control (Admin, Editor, Viewer, Stakeholder).
+- Multi-tenant environment for enterprise clients.
+- Invite, suspend, or modify team members and assign them to departments.
 
-## Benefits of Digital Gold
+### 🧩 Data Connectors & Integrations
+- Bring in business data via secure APIs or native integrations.
+- Support for SQL, REST, CSV, internal APIs, and external SaaS apps.
+- Transform and filter data inline during flow execution.
 
-- **Instant Liquidity:** Trade eAU tokens in real time on decentralized and centralized exchanges, eliminating the delays associated with physical gold transactions. 
+### 📄 Test & Execution Logs
+- Run test prompts against any flow with mock or live data.
+- View real-time responses and token breakdowns from the LLM.
+- Access logs of every interaction for debugging or optimization.
 
-- **Cost Efficiency:** Reduce or eliminate storage, insurance, and handling fees that burden traditional gold investments. 
+### ⚙️ Settings & Configuration
+- Platform-level options for language model (GPT, Claude, etc.)
+- Deployment toggles, API keys, usage caps, time zone, currency.
+- Add CMS-like pages for legal documents and user guidance.
 
-- **Transparency & Trust:** On‑chain records provide immutable proof of gold backing, reserve audits, and transaction history. 
+## 4. Multi-Channel Deployment
+Agents can be deployed across:
+- 🌐 **Web Widget** (customer support or internal portals)
+- 💬 **Slack or Microsoft Teams**
+- 🔁 **REST API** for integration with external tools (CRMs, ERPs, etc.)
 
-- **Fractional Ownership:** Purchase any amount of gold starting from 1 gram, making gold investment accessible to all budget sizes. 
+## 5. Target Use Cases
+- **HR**: AI answering employee benefit questions or policy queries.
+- **IT Ops**: AI agents assisting in system status, password resets.
+- **Customer Support**: 24/7 chat agent powered by curated workflows.
+- **Finance**: Agents answering budget queries, generating summaries.
+- **Sales**: Agent that summarizes CRM data and next actions.
 
-- **Security & Control:** Non‑custodial wallet architecture with Multi‑Party Computation (MPC) and multi‑signature vaults protect against unauthorized access and single points of failure. 
+## 6. Differentiators
+- Full low-code + LLM fusion in a business-safe environment.
+- Mix of structured process automation + unstructured language generation.
+- Rich test & deployment ecosystem without DevOps dependency.
+- Embedded AI opportunity mapping and ROI scoring engine.
+- Multi-agent support, reusable flows, and enterprise-grade control.
 
-- **Inflation Hedge:** Preserve purchasing power through exposure to gold’s historically stable value during economic uncertainty. 
-
-- **Programmable Asset:** Integrate eAU tokens into DeFi protocols for collateralized lending, yield generation, and automated market‑making. 
-
-- **Global Accessibility:** Transact borderlessly without reliance on local banking infrastructure or currency conversions.
-
-## Use Cases
-
-
-- **Retail Investors:** Easily diversify portfolios with a stable, non‑correlated asset while benefiting from fractional ownership and low entry barriers. 
-
-- **Institutional Investors:** Streamline treasury management by incorporating digital gold into balance sheets with on‑chain proof of reserves and audit-ready reporting. 
-
-- **DeFi Participants:** Leverage eAU tokens as collateral in decentralized lending, borrowing, and yield farming protocols to unlock additional income streams. 
-
-- **Cross‑Border Payments:** Transfer value across jurisdictions instantly and cost‑effectively, bypassing traditional remittance networks and foreign exchange spreads. 
-
-- **Corporate Treasury:** Hedge against inflation and currency volatility by allocating a portion of corporate reserves to a liquid, verifiable gold asset. 
-
-- **Merchant Adoption:** Accept eAU tokens as a stable settlement currency, offering customers a hedge against fiat volatility while broadening payment options. 
-
-:::info Summary
-bNeuron revolutionizes gold investment by combining the stability of physical gold with the innovation of blockchain technology, making it accessible to everyone while maintaining the highest standards of security and transparency.
-:::
+## 7. Admin Experience
+The admin panel is the nerve center of the platform:
+- Create and manage flows and agents
+- Track analytics and performance
+- Manage users, access levels, and connected data sources
+- Monitor logs and tune agent behavior
+- Customize branding, tone, deployment channels, and more
