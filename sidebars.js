@@ -8,8 +8,8 @@ module.exports = {
     
     {
       type: 'category',
-      label: 'Project Overview',
-      items: ['project-overview/congratulations'],
+      label: 'Admin',
+      items: ['admin/login'],
     },
   ],
 };
