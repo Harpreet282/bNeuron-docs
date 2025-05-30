@@ -1,23 +1,22 @@
-Help & Support
+---
+sidebar_position: 19
+---
+# Help & Support
 
-o Documentation Portal
+- **Support Ticket System:** Create and manage support tickets with priority levels, category assignment, and resolution tracking.
 
-§ Search Bar: Admin will type keywords to find doc pages (API reference, how-tos).
+- **Knowledge Base Access:** Access comprehensive help documentation, tutorials, and FAQ sections for self-service support.
 
-§ Category Navigation: Admin will browse sections like Getting Started, Builder Guide, XPLR Guide.
+- **Live Chat Integration:** Connect with support agents through integrated live chat functionality for real-time assistance.
 
-o Support Tickets
+- **Video Tutorials:** Access library of video tutorials covering platform features, best practices, and troubleshooting guides.
 
-§ Create Ticket:
+- **Community Forums:** Participate in user community forums for peer-to-peer support and knowledge sharing.
 
-· Subject: Admin will enter a brief title.
+- **Documentation Library:** Browse complete platform documentation including API references, user guides, and technical specifications.
 
-· Description: Admin will detail the issue, attach screenshots or logs.
+- **Contact Information:** Access multiple support channels including email, phone, and emergency contact information.
 
-· Priority: Admin will select Low/Medium/High.
+- **Support History:** View complete history of support interactions, ticket status, and resolution outcomes.
 
-· Submit: Admin will click “Send.”
-
-§ Ticket Dashboard: Admin will view their open tickets with Status and Assigned Engineer.
-
-§ Add Comment: Admin will post updates or reply to support responses within each ticket
+- **Feedback System:** Submit feedback and feature requests directly to the development team for platform improvements.

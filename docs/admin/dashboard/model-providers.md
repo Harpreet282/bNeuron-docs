@@ -1,8 +1,25 @@
 ---
-title: Model Providers
+sidebar_position: 12
 ---
-
 # Model Providers
+
+- **Provider Configuration:** Set up and configure AI model providers like OpenAI, Anthropic, Google, and other machine learning services.
+
+- **API Key Management:** Securely store and manage API keys and authentication credentials for different model providers.
+
+- **Model Selection:** Choose from available models within each provider offering different capabilities and pricing tiers.
+
+- **Performance Monitoring:** Track model usage, response times, accuracy metrics, and cost analysis across providers.
+
+- **Fallback Configuration:** Set up provider fallback chains to ensure service continuity if primary providers are unavailable.
+
+- **Rate Limiting:** Configure rate limits and usage quotas to control costs and prevent overuse of provider services.
+
+- **Custom Models:** Integration support for custom-trained models and on-premise AI solutions.
+
+- **Provider Comparison:** Compare performance, cost, and capabilities across different model providers for optimization.
+
+- **Usage Analytics:** Detailed reporting on model usage patterns, costs, and performance metrics for informed decision-making.
 
 ## 📋 Providers Listing
 

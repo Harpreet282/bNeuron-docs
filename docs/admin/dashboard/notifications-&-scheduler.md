@@ -1,46 +1,22 @@
 ---
-title: Notifications & Scheduler
+sidebar_position: 17
 ---
-
 # Notifications & Scheduler
 
-## 🔔 Notification Templates
+- **Notification Templates:** Create and manage email, SMS, and in-app notification templates for different system events and user communications.
 
-### Template List
+- **Automated Scheduling:** Set up automated tasks and processes with flexible scheduling options including cron expressions and calendar-based triggers.
 
-Admin will view all templates with columns:
+- **Event-driven Notifications:** Configure notifications triggered by specific system events, user actions, or data changes.
 
-- Name  
-- Event Trigger  
-- Channels  
-- Status  
+- **Multi-channel Delivery:** Send notifications through multiple channels including email, SMS, push notifications, and webhooks.
 
-### Add Template
+- **Notification Preferences:** Allow users to customize their notification preferences and delivery channels for different types of alerts.
 
-- **Template Name:** Admin enters a label (e.g., “Assessment Reminder”).  
-- **Event Trigger:** Admin selects a system event (Assessment Due, Flow Failure).  
-- **Channels:** Admin toggles Email, SMS, In-App.  
-- **Message Body:** Admin writes the text, using placeholders like `{{userName}}`, `{{dueDate}}`.  
-- **Save Template:** Admin clicks “Save.”  
+- **Scheduled Reports:** Automate the generation and distribution of reports on specified schedules to relevant stakeholders.
 
----
+- **Reminder Systems:** Set up automated reminders for tasks, deadlines, and important system maintenance activities.
 
-## 🗓️ Scheduler
+- **Notification History:** Track all sent notifications with delivery status, read receipts, and user engagement metrics.
 
-### Job List
-
-Admin will see scheduled jobs with columns:
-
-- Name  
-- Flow/Report  
-- Cron Expression  
-- Next Run  
-- Status  
-
-### Create Job
-
-- **Job Name:** Admin enters a descriptive name.  
-- **Action:** Choose to run a flow, send a report, or execute a script.  
-- **Schedule:** Enter a cron expression or use a date/time picker.  
-- **Notification on Failure:** Select a notification template to trigger if the job fails.  
-- **Enable/Disable:** Toggle job activation.  
+- **Escalation Rules:** Configure notification escalation workflows for critical alerts and time-sensitive communications.

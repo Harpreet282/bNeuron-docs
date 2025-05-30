@@ -3,62 +3,21 @@ sidebar_position: 8
 ---
 # Users
 
+- **User Listing:** View all registered users in a comprehensive table with columns for Name, Email, Role(s), Status, Last Login, and Actions.
 
-# User Listing
+- **Search & Filter:** Search and filter users by name, email, status, and role to quickly locate specific users.
 
-## 📋 Columns
+- **Add New User:** Create new user accounts by entering full name, email address, and assigning roles with optional tenant/organization scope.
 
-- **Name**
-- **Email**
-- **Role(s)**
-- **Status** (Active / Disabled)
-- **Last Login**
-- **Actions** (Edit / Disable / Reset Password)
+- **Role Management:** Assign and update user roles with multi-select functionality from existing role templates.
 
----
+- **Status Control:** Toggle user status between Active and Disabled to manage account access.
 
-## 🔍 Search & Filter
+- **Password Management:** Reset user passwords with options to send reset links or set new passwords directly.
 
-You can search and filter users by the following fields:
+- **Welcome Notifications:** Send automated welcome emails to newly created users with account setup instructions.
 
-- Name
-- Email
-- Status
-- Role
+- **User History:** View detailed user activity including login history and configuration changes for audit purposes.
 
----
-
-## ➕ Add New User
-
-### Required Information
-
-- **Full Name**: Enter first and last name.
-- **Email Address**: Enter the user’s corporate email.
-- **Temporary Password**: Auto-generated or custom-defined.
-
-### Role & Access Settings
-
-- **Assign Role(s)**: Multi-select from existing roles.
-- **Tenant/Organization**: Select scope if multi-tenant.
-
-### Notifications
-
-- **Send Welcome Email**: Toggle to notify the user upon account creation.
-
----
-
-## ✏️ Edit User
-
-- **Roles**: Update assigned roles.
-- **Status**: Toggle between Active and Disabled.
-- **Reset Password**: Option to send a reset link or set a new password.
-
----
-
-## 🕓 User History
-
-View details such as:
-
-- Login history
-- Configuration changes
+- **Bulk Actions:** Perform actions on multiple users simultaneously for efficient user management.
 

@@ -1,4 +1,27 @@
 ---
+sidebar_position: 14
+---
+# Xplr Modules
+
+- **Module Marketplace:** Browse and install pre-built modules from the platform marketplace to extend functionality.
+
+- **Custom Development:** Create custom modules using development frameworks and APIs for specific business requirements.
+
+- **Module Configuration:** Configure module settings, parameters, and integration options after installation.
+
+- **Dependency Management:** Manage module dependencies and ensure compatibility across different system components.
+
+- **Version Control:** Track module versions with update management and rollback capabilities for stability.
+
+- **Testing Environment:** Test modules in isolated environments before deploying to production systems.
+
+- **Performance Monitoring:** Monitor module performance, resource usage, and impact on system operations.
+
+- **Security Scanning:** Automated security scanning of modules to ensure they meet platform security standards.
+
+- **Integration APIs:** Connect modules with external systems and third-party services through standardized APIs.
+
+---
 title: XPLR 
 ---
 
@@ -29,12 +52,12 @@ Admin will view a table of existing assessment templates showing:
 - **Weight**: Assign a numeric weight (1–10) indicating question importance
 - **Guidance Notes**: Enter helper text to guide respondents
 
-- **Save Template**: Click “Save” to create the template
+- **Save Template**: Click "Save" to create the template
 
 ### Edit Template
 
-- Click “Edit” to modify template fields or questions
-- Click “Update” to save changes
+- Click "Edit" to modify template fields or questions
+- Click "Update" to save changes
 
 ### Archive Template
 
@@ -93,11 +116,11 @@ Table with columns:
 - **Expected ROI**: Input numeric ROI estimate or range
 - **Required Data Sources**: List required data systems (ERP, CRM, Email)
 - **Tags**: Tag with relevant keywords (OCR, RPA, LLM)
-- **Save Use-Case**: Click “Save” to add to the repository
+- **Save Use-Case**: Click "Save" to add to the repository
 
 ### Edit Use-Case
 
-- Update fields as needed and click “Update”
+- Update fields as needed and click "Update"
 
 ### Delete Use-Case
 
@@ -128,7 +151,7 @@ Table with columns:
 - **Select Use Cases**: Check box next to each prioritized use case
 - **Timeline Settings**: Choose Quarterly / Monthly / Custom date ranges
 - **Resource Tags**: Tag required teams (e.g., Data, DevOps, BI)
-- **Create Roadmap**: Click “Generate” to produce a Gantt-style plan
+- **Create Roadmap**: Click "Generate" to produce a Gantt-style plan
 
 ### Export Roadmap
 

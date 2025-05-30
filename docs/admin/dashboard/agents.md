@@ -1,41 +1,22 @@
 ---
-title: Agents
+sidebar_position: 13
 ---
+# Agents
 
-# Agents (Multi-Agent Orchestration)
+- **Agent Creation:** Create and configure AI agents with specific roles, personalities, and specialized capabilities for different use cases.
 
-## 📚 Agent Catalog
+- **Agent Templates:** Use predefined agent templates for common scenarios like customer service, content creation, or data analysis.
 
-### Columns
+- **Training Configuration:** Set up agent training parameters, knowledge bases, and learning objectives for optimal performance.
 
-- **Agent Name**
-- **Type**: Chatbot / Batch
-- **Status**
-- **Last Interaction**
-- **Actions**: Test / Deploy / Archive
+- **Conversation Management:** Monitor and manage agent conversations with users, including chat history and interaction analytics.
 
----
+- **Performance Metrics:** Track agent effectiveness through success rates, user satisfaction scores, and response quality measures.
 
-## ➕ Create Agent
+- **Knowledge Integration:** Connect agents to specific knowledge bases and data sources for informed responses.
 
-- **Name & Description**: Clear, business-focused naming and description
-- **Base Flow(s)**: Select one or more Flows to orchestrate
-- **System & User Prompts**: Define initial context and tone
-- **Memory Settings**: Enable conversation history retention
-- **Test Panel**: Chat interface to validate agent behavior
+- **Deployment Controls:** Manage agent deployment across different channels and environments with staging and production settings.
 
----
+- **Agent Collaboration:** Configure multi-agent workflows where agents can work together to solve complex tasks.
 
-## 🚀 Deployment Options
-
-- **Channels**: Web Widget, Slack, Teams, REST API
-- **Branding**: Customize bot avatar, welcome message, and theme colors
-- **Authentication**: Support for SSO token, API key
-
----
-
-## 📈 Scaling & Scheduling
-
-- **Concurrent Sessions**: Max number of simultaneous user sessions
-- **Auto-Scaling**: CPU and memory thresholds to spin up new instances automatically
-- **Scheduled Agents**: Set recurring runs (e.g., daily report generator)
+- **Customization Options:** Customize agent behavior, response styles, and integration capabilities based on business requirements.

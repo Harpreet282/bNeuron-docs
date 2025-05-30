@@ -1,8 +1,25 @@
 ---
-title: Scheduler
+sidebar_position: 20
 ---
-
 # Scheduler
+
+- **Task Scheduling:** Create and manage scheduled tasks with flexible timing options including one-time, recurring, and cron-based schedules.
+
+- **Job Management:** Monitor scheduled jobs with status tracking, execution history, and performance metrics.
+
+- **Automated Workflows:** Set up automated workflow execution triggered by time-based events or system conditions.
+
+- **Resource Allocation:** Manage computational resources allocated to scheduled tasks with priority and resource limit settings.
+
+- **Dependency Management:** Configure task dependencies where jobs can be chained together with conditional execution logic.
+
+- **Notification Integration:** Receive notifications for job completion, failures, and status changes through multiple channels.
+
+- **Retry Mechanisms:** Configure automatic retry policies for failed jobs with backoff strategies and maximum retry limits.
+
+- **Schedule Optimization:** Optimize job scheduling to minimize resource conflicts and maximize system efficiency.
+
+- **Audit Logging:** Maintain detailed logs of all scheduled activities, execution times, and resource usage for analysis.
 
 ## 🗓️ Job List
 
