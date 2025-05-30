@@ -9,7 +9,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Admin',
-      items: ['admin/login' ,{
+      items: ['admin/introduction' ,'admin/login',{
           type: 'category',
           label: 'Dashboard',
           items: [
