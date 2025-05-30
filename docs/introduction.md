@@ -13,38 +13,38 @@ The system empowers users (internal teams, consultants, or enterprise clients) t
 
 ## 3. Key Modules & Features
 
-### 🧠 Flow Builder (Low-Code Interface)
+#### 🧠 Flow Builder (Low-Code Interface)
 - Drag-and-drop interface to create AI workflows visually.
 - Nodes include: Text Input, API Call, Data Enrichment, Decision Branching, LLM Generation.
 - Allows chaining of logic for data retrieval, transformation, reasoning, and structured output.
 
-### 👥 Agents & Deployment Engine
+#### 👥 Agents & Deployment Engine
 - Create agents by linking flows with business context.
 - Define agent personality, greeting message, response tone, etc.
 - Deploy to Slack, Teams, Web widget, or external tools via REST API.
 - Monitor live usage and performance from the panel.
 
-### 🧭 Discover (AI Opportunity Mapping)
+#### 🧭 Discover (AI Opportunity Mapping)
 - Interactive process intake forms to map real-world workflows.
 - AI-based scoring of maturity (data readiness, tooling, skills).
 - Use-case repository to prioritize ROI-centric implementations.
 
-### 📊 Dashboards & Analytics
+#### 📊 Dashboards & Analytics
 - Track usage stats per agent (queries, response quality, average latency).
 - Drill down to user-specific interactions and satisfaction scores.
 - Filter by department, user role, or deployed channel.
 
-### 🔐 User & Role Management
+#### 🔐 User & Role Management
 - Role-based access control (Admin, Editor, Viewer, Stakeholder).
 - Multi-tenant environment for enterprise clients.
 - Invite, suspend, or modify team members and assign them to departments.
 
-### 🧩 Data Connectors & Integrations
+#### 🧩 Data Connectors & Integrations
 - Bring in business data via secure APIs or native integrations.
 - Support for SQL, REST, CSV, internal APIs, and external SaaS apps.
 - Transform and filter data inline during flow execution.
 
-### 📄 Test & Execution Logs
+#### 📄 Test & Execution Logs
 - Run test prompts against any flow with mock or live data.
 - View real-time responses and token breakdowns from the LLM.
 - Access logs of every interaction for debugging or optimization.
